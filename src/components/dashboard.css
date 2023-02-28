@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 20rem;
+    height: max-content;
+    background-color: rgb(67, 67, 205);
+    color: white;
+    padding: 2rem;
+}
+
+.menu {
+    padding: 1.5rem 0 1.5rem 2rem;
+}
+
+.submenu {
+    width: 15rem;
+    height: 3rem;
+    padding-top: 1rem;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.submenu:hover {
+    /* width: 13rem;
+    height: 3rem; */
+    background: white;
+    border-radius: 1rem;
+    color: blue;
+    text-align: center;
+}
+
+.profile {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.name {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}

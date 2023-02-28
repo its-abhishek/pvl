@@ -1,36 +1,30 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .sidebar {
-    width: 20rem;
-    height: max-content;
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
     background-color: rgb(67, 67, 205);
     color: white;
-    padding: 2rem;
-}
-
-.menu {
-    padding: 1.5rem 0 1.5rem 2rem;
+    /* padding: 0.2rem 0 0.2rem 0.2rem; */
+    margin-top: 0;
 }
 
 .submenu {
     width: 15rem;
-    height: 3rem;
-    padding-top: 1rem;
-    font-weight: bold;
+    height: 2.5rem;
+    padding: 0.3rem 0 0.3rem 0;
+    font-weight: 300;
     list-style-type: none;
 }
 
 .submenu:hover {
-    /* width: 13rem;
-    height: 3rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13rem;
+    height: 1.5rem;
     background: white;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     color: blue;
-    text-align: center;
 }
 
 .profile {
